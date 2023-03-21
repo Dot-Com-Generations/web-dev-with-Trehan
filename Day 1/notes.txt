@@ -1,0 +1,71 @@
+Front End Web Dev -> The UI and the feel of the website
+
+Whatever the client/user sees in a website is Front End.
+
+Basic Front End -
+    1. HTML -> Bones/Structure
+    2. CSS -> Skin/Style
+    3. JS -> Muscles/Nerves/Interactions
+    4. CSS Frameworks/Libraries
+    5. JS Animations/Libraries
+
+HTML -> HyperText Markup Language
+
+Boilerplate -> this is the bare minimum code required to start.
+
+<!DOCTYPE html> -> This declares that our file is an HTML5 Document
+<html lang="en"> -> html tag defines the opening of your webpage
+
+
+<head> -> the brain of your html file
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+<body>
+    This is visible on the screen
+</body>
+</html> -> this marks the ending of the html file.
+
+
+HTML contains Tags/Elements
+<tag>
+
+Tags are of two types
+    1. Dependent -> 
+    <tag>
+            Your Code goes here
+    </tag>
+    2. Independent ->
+    <tag>
+    <tag /> *Best Practise
+
+Attributes
+-> Attributes are available on every HTML Element/tag
+
+<tag attribute="value"></tag>
+<tag attribute="value" />
+
+Each tag is categorized in two ways -
+    1. Block Element
+        -> It will cover the whole avilable width.
+    2. Inline Element
+        -> It will only take up the width equal to it's content.
+
+Basic HTML Tags that you need to know about-
+1. Headings
+2. Parraghraph
+3. Formatting (Text Formatting)
+4. Comments
+5. Links (Hyperlinks)
+6. Images
+7. Lists
+8. Tables
+9. Embeds
+10. Input
+11. Form
+
+Divs & Spans (Building Blocks of a Website)

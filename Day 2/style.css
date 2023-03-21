@@ -1,0 +1,18 @@
+body {
+	font-family: 'Poppins', sans-serif;
+}
+
+.blueParra {
+	font-size: 26px;
+	color: blue;
+}
+
+.violetParra {
+	font-size: 32px;
+	color: blueviolet;
+}
+
+.icon {
+	font-size: 64px;
+	color: brown;
+}

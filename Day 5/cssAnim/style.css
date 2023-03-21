@@ -1,0 +1,57 @@
+.container {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.ball {
+	width: 100px;
+	height: 100px;
+	background-color: #0085ff;
+	clip-path: circle(40%);
+}
+
+.ball:hover {
+	animation: bounce 1s linear infinite;
+}
+
+/* @keyframes bounce {
+	from {
+		transform: translateY(0%);
+		background-color: #0085ff;
+	}
+	to {
+		transform: translateY(-50%);
+		background-color: #ffbd00;
+	}
+} */
+
+@keyframes bounce {
+	0% {
+		transform: translateY(0%);
+		background-color: #0085ff;
+	}
+	50% {
+		transform: translateY(-50%);
+		background-color: #ffbd00;
+	}
+	100% {
+		transform: translateY(0%);
+		background-color: #0085ff;
+	}
+}
+
+.spinner.animate {
+	animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+	from {
+		transform: rotateZ(0deg);
+	}
+	to {
+		transform: rotateZ(360deg);
+	}
+}

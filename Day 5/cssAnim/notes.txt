@@ -1,0 +1,29 @@
+Animations
+->Initial Position/Starting Position
+->Final Position/Ending Position
+
+CSS Animations
+
+@keyframes animationName{
+    from{
+
+    }
+    to{
+
+    }
+}
+
+@keyframes animationName{
+    0%{
+
+    }
+    50%{
+
+    }
+    70%{
+
+    }
+    100%{
+
+    }
+}

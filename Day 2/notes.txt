@@ -1,0 +1,71 @@
+Div and Span
+-> These are known as the building blocks of a website.
+
+-> they don't have any use/function other than behaving as a container.
+
+- You should never write anything directly but use containers
+
+-> block -> div
+-> inline -> span
+
+HTML Semantics - predefined html div elements used for better SEO-> Search Engine Optimization.
+
+Navbar - div -> nav
+Article - div -> article
+
+CSS -> Cascading StyleSheets
+-> 3 ways to add CSS
+    - Inline CSS
+    - Internal CSS
+    - External CSS
+
+-> Inline CSS
+    <tag style="property:value;property:value;"></tag>
+    <tag style="property:value;property:value;" />
+
+    property:value;
+
+-> Internal CSS & External Class
+    Selectors - Class/ID
+    
+    Element - img
+    Class - .classname
+    Id - #idname
+    {
+        property:value;
+        property:value;
+    }
+
+    Internal CSS uses the <style></style> - HEAD
+    External CSS -> a new .css file
+
+-> Fonts or FontIcons/IconPacks
+    -Google Fonts
+        -Poppins
+        -Montserrat
+        -Roboto
+        -Raleway
+        -Noto Sans
+        -Open Sans
+        -Anton
+        -Oswald
+        -Lato
+    -FontAwesome
+    -Material Design Icons
+    -Ant Design
+    -Uicons
+
+CSS properties
+    -color
+    -font-size
+    -border
+    -font-weight
+    -border-radius
+    -font-family
+    -width
+    -height
+    -background-color
+    -margin
+	-padding
+    -text-decoration
+    -display : flex

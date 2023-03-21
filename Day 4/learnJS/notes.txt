@@ -1,0 +1,82 @@
+JS (Front End) is used to add interactions to our website
+
+Variable
+-> let - the value can change while execution
+-> const - the value cannot change while execution
+
+Arithemetic Operators - +,-,*,/,%
+Asignment Ops - =,+=,-=, etc.
+
+Equality -> 
+== (Compares just the value)
+=== (Compares both type and value)
+
+if(1=='1') -> True
+if(1==='1') -> False
+
+conditions ->
+    if(condition){
+            // If true        
+    }else if(condition){
+        // if this true
+    }else{
+        // if false
+    }
+
+Loops ->
+for(i=0;i<=10;i++){
+    console.log(i)
+}
+
+Functions ->
+
+function funcName(){
+    //Write your code here
+}
+
+funcName()
+
+const funcName = ()=>{
+    //write your code
+}
+
+First declare and then call
+
+funcName()
+
+DOM - Document Object Model
+    -> The browser is your window.
+    -> Your whole webpage is the document.
+    -> Everything on your page (all the html tags) are objects/elements
+
+JS interacts with the elements on your webpage using the DOM.
+
+There are 3 ways to add JS to your website
+    ->Inline 
+    ->Internal
+    ->External
+
+
+interactions -> Events
+1. CLick
+2. Keypress
+3. DblClick
+3. Mouse Enter (Hover)
+
+3 ways of selecting Elements using JS
+
+1. by ID - document.getElementById("id")
+2. by Class - document.getElementByClassName("class")
+3. By tags - document.getElementByTagName("tagname")
+
+1 more way which helps you to select everything.
+
+document.querySelector("#id")
+document.querySelector(".class")
+document.querySelector("div")
+
+Event Listener -> It listens or looks for events and then performs some function.
+
+element.addEventListener('event',()=>{
+    
+})
